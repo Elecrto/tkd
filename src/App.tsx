@@ -4,7 +4,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/screens/home/main/Main';
-import AdminPanel from './app/admin/page';
+import AdminPanel from './app/admin/AdminPanel';
 
 const App: React.FC = () => (
     <Router>
